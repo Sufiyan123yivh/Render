@@ -1,0 +1,14 @@
+{
+  "name": "render-hls-proxy",
+  "version": "1.0.0",
+  "description": "Simple HLS proxy for rewriting .m3u8 & .ts URLs (for Render.com)",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
